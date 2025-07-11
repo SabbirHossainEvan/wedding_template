@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway";
+}
+
+:root {
+    --primary-font-family: "Raleway";
+    --white-color: white;
+    --pink-color:  #fbe8e8;
+    --dark-pink: #ffc4c4;
+    --btn-font-color: #f44336;
+    --gray-color:#757575;
+    --font-size: 18px;
+    --btn-font-size: 20px;
+}
+
+/* hero section start */
+.hero_section {
+    background-image: url(./img/download.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 30px 0px;
+}
+
+.hero_section h1 {
+    text-align: center;
+    font-family: var(--primary-font-family);
+    font-size: 70px;
+    color: var(--white-color);
+    margin-top: 160px;
+}
+.hero_section p {
+    text-align: center;
+    font-family: var(--primary-font-family);
+    font-size: 30px;
+    color: var(--white-color);
+    padding-top: 20px;
+}
+.hero_section h2 {
+    text-align: center;
+    font-family: var(--primary-font-family);
+    color: var(--white-color);
+
+}
+
+@media only screen and (max-width:992px) {
+    .hero_section {
+        background-image: url(./img/download.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 80vh;
+        padding: 30px;
+    }
+
+    .hero_section h1 {
+        text-align: center;
+        font-family: var(--primary-font-family);
+        font-size: 40px;
+        color: var(--white-color);
+        margin-top: 100px;
+    }
+
+    .hero_section p {
+        text-align: center;
+        font-family: var(--primary-font-family);
+        font-size: 22px;
+        color: var(--white-color);
+        padding-top: 10px;
+    }
+    .hero_section h2 {
+        text-align: center;
+        font-family: var(--primary-font-family);
+        font-size: 18px;
+        color: var(--white-color);
+    
+    }
+}
+/* hero section end */
+
+/* <!-- details section start --> */
+.detaila_section {
+    padding: 60px 0px;
+    background-color: var(--pink-color);
+}
+
+.detaila_area h1 {
+    text-align: center;
+    font-family: var(--primary-font-family);
+    font-size: 50px;
+    color: var(--gray-color);
+    
+}
+.detaila_area P {
+    text-align: justify;
+    font-family: var(--primary-font-family);
+    font-size: 17px;
+    margin: 40px;
+}
+
+.detailas-img img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 40px;
+}
+
+.detaila_area button {
+    text-align: center;
+    font-family: var(--primary-font-family);
+    font-size: 18px;
+    padding: 18px 18px;
+    border-radius: 8px;
+    border: none;
+    display: block;
+    margin: auto;
+    color: var(--white-color);
+    background-color: black;
+}
+.detaila_area button:hover {
+    text-align: center;
+    font-family: var(--primary-font-family);
+    font-size: 18px;
+    padding: 18px 18px;
+    border-radius: 8px;
+    border: none;
+    display: block;
+    margin: auto;
+    color: black;
+    background-color: rgb(168, 167, 167);
+    transition: 1s;
+}
+
+@media only screen and (max-width:992px) {
+    .detailas-img img {
+        display: block;
+        margin: auto;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .detaila_area h1 {
+        text-align: center;
+        font-family: var(--primary-font-family);
+        font-size: 30px;
+        color: var(--gray-color);
+        padding-bottom: 20px;
+    }
+    .detaila_area P {
+        text-align: justify;
+        font-family: var(--primary-font-family);
+        font-size: 14px;
+        margin: 11px;
+    }
+
+    .detaila_area button {
+        text-align: center;
+        font-family: var(--primary-font-family);
+        font-size: 12px;
+        padding: 9px 9px;
+        border-radius: 4px;
+        border: none;
+        display: block;
+        margin: auto;
+        color: var(--white-color);
+        background-color: black;
+    }
+
+    .detaila_area button:hover {
+        text-align: center;
+        font-family: var(--primary-font-family);
+        font-size: 12px;
+        padding: 9px 9px;
+        border-radius: 4px;
+        border: none;
+        display: block;
+        margin: auto;
+        color: black;
+        background-color: rgb(168, 167, 167);
+        transition: 1s;
+    }
+}
+/* <!-- details section end --> */
+
+/* <!-- invite section start --> */
+.invite_section {
+    background-image: url(./img/download\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    padding: 30px;
+}
+
+.invite_section h1 {
+    text-align: center;
+    font-family: var(--primary-font-family);
+    font-size: 70px;
+    color: var(--white-color);
+    margin-top: 120px;
+}
+.invite_section p {
+    text-align: center;
+    font-family: var(--primary-font-family);
+    font-size: 30px;
+    color: var(--white-color);
+    padding-top: 20px;
+}
+
+@media only screen and (max-width:992px) {
+    .invite_section h1 {
+        text-align: center;
+        font-family: var(--primary-font-family);
+        font-size: 35px;
+        color: var(--white-color);
+        margin-top: 260px;
+    }
+    .invite_section p {
+        text-align: center;
+        font-family: var(--primary-font-family);
+        font-size: 21px;
+        color: var(--white-color);
+        padding-top: 10px;
+    }
+}
+/* <!-- invite section end --> */
+
+/* <!-- wedding section start --> */
+.wedding_section {
+    padding: 60px 0px;
+    background-color: var(--pink-color);
+}
+
+.wedding_area h1 {
+    text-align: cent er;
+    font-family: var(--primary-font-family);
+    font-size: 40px;
+    color: rgb(135, 134, 134);
+    font-weight: 600;
+}
+
+.wedding_img img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 40px;
+}
+
+@media only screen and (max-width:992px) {
+    .wedding_area h1 {
+        text-align: center;
+        font-family: var(--primary-font-family);
+        font-size: 25px;
+        color: rgb(135, 134, 134);
+        font-weight: 500;
+    }
+    
+    .wedding_img img{
+        display: block;
+        margin: auto;
+        width: 100%;
+        padding: 10px;
+    } 
+}
+/* <!-- wedding section end --> */
